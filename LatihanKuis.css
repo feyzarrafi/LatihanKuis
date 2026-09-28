@@ -1,0 +1,141 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #EEEEEE;
+}
+
+.navbar {
+    height: 70px;
+    background: #FFFFFF;
+    color: #000000;
+    padding: 0 8%;
+    border-top: 4px solid;
+}
+
+.logo {
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.home:hover {
+    color: #444444;
+}
+
+.products:hover {
+    color: #444444;
+}
+
+.about:hover {
+    color: #444444;
+}
+
+.container {
+    padding: 180px;
+}
+
+.product-card {
+    max-width: 600px;
+    margin: auto;
+    background-color: #DDDDDD ;
+    min-height: 350px;
+    border-radius: 16px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.product-image {
+    display: flex;
+    transition: 0.3s ease;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    background-color: transparent;
+}
+
+.product-image img {
+    width: 110%;
+    max-width: 450px;
+    border-radius: 16px;
+    object-fit: contain;
+}
+
+.product-image:hover {
+    transform: scale(1.05);
+}
+
+.product-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 15px;
+    background-color: transparent;
+}
+
+.category {
+    color: #777777;
+    font-size: 12px;
+    letter-spacing: 2px;
+    margin-bottom: 12px;
+}
+
+.product-info h2 {
+    color: #000000;
+    font-weight: bold;
+    margin-bottom: 14px;
+}
+
+.deskripsi {
+    color: #666666;
+    font-size: 12px;
+}
+
+.harga {
+    color: #000000;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.pilih-warna p {
+    color: #000000;
+    font-size: 12px;
+}
+
+.color-button {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid #FFFFFF;
+    transition: 0.2s;
+}
+
+.color-button.black {
+    background-color: #000000;
+}
+
+.color-button.blue {
+    background-color: #4F7FB5;
+}
+
+.color-button.cream {
+    background-color: #E5CBA5;
+}
+
+.color-button:hover {
+    transform: scale(1.10);
+}
+
+.cart-button {
+    width: 100%;
+    padding: 4px;
+    background-color: #000000;
+    color: #FFFFFF;
+    border: none;
+    font-size: 14px;
+    transition: 0.3s;
+    margin-top: 8px;
+    border-radius: 8px;
+}
+
+.cart-button:hover {
+    background-color: #444444;
+    transform: scale(1.05);
+}
